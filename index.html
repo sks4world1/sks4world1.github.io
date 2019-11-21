@@ -10,6 +10,7 @@
   
   <body>
     <header>Magic is on the way!</header>
+    <button type='button' onclick='getColorDepth();'>Get Color Depth</button>
     <div class='one'></div>
     <div class='two'></div>
     <div class='three'></div>
@@ -21,6 +22,12 @@
     header {
       font-size:3em;
     }
+    
+    <script>
+    function getColorDepth() {
+      alert(screen.colorDepth);
+    }
+    
     
   </style>
   
