@@ -23,7 +23,6 @@
 
     <div class="body-container">
       <div class="left">
-        Left
         
       </div>
 
@@ -33,7 +32,12 @@
       </div>
 
       <div class="right">
-        Right
+        <div class="right-1">
+          <a href=""><img src="Shoe1.JPG"></a>
+        </div>
+        <div class="right-1">
+          <a href=""><img src="Tent1.JPG"></a>
+        </div>
         
       </div>
       
@@ -86,7 +90,12 @@
     .right{
       display: flex;
       flex-direction: column;
-      width: 20%
+      width: 20%;
+      flex-wrap: wrap;
+    }
+
+    .right-1 {
+      max-width: 20%;
     }
 
     
