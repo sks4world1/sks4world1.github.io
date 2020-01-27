@@ -106,6 +106,25 @@
     .main-1 {
       display: flex;
       flex-wrap: wrap;
+      flex-direction: column;
+      color:white;
+      box-sizing: border-box;
+      justify-content: center;
+      background-color: red;
+      margin: 6px;
+      padding: 16px;
+    }
+
+    @media (max-width:767px) {
+      .main-1 {
+        flex-basis: calc(50% - 12px);
+      }
+    }
+
+    @media (max-width:460px) {
+      .main-1 {
+        flex-basis: 100%;
+      }
     }
 
     .right{
