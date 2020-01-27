@@ -29,7 +29,7 @@
       <div class="main">
         <h5>Best ideas to improve your fitness while having fun</h5>
         <div class="main-1">
-          <img src="familytennis.JPG">
+          <img src="familytennis.jpg">
           <p>Tennis is a family game. It engages all parts of player's body. Not only that, it improves hand-eye coordination, strengthens heart muscles and improves mental fitness as well.</p> 
           
         </div>
@@ -98,8 +98,14 @@
 
     .main{
       display: flex;
-      flex-direction: column;
-      width: 60%
+      flex-direction: row;
+      width: 60%;
+      flex-wrap: wrap;
+    }
+
+    .main-1 {
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .right{
