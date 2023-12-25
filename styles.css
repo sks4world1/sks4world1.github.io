@@ -1,0 +1,199 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting up basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f9f8; /* Sea-green color palette */
+  color: #333; /* Text color */
+  line-height: 1.6;
+}
+
+header {
+  background-color: #66c1b3; /* Header color */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff; /* Menu item text color */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  position: relative;
+  padding: 20px; /* Add padding to create space around the image */
+  border: 2px solid #66c1b3; /* Add a border around the image */
+}
+
+.text-block {
+  margin-bottom: 20px; /* Add space between the image and text blocks */
+}
+
+.text-block p {
+  font-family: Arial, sans-serif; /* Use a sans-serif font for text */
+  font-size: 18px; /* Adjust font size as needed */
+  color: #333; /* Text color */
+}
+
+.responsive-image {
+  max-width: 70%; /* Adjust the maximum width of the image */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.cta-button {
+  display: block;
+  width: 150px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #66c1b3; /* Button color */
+  color: #fff; /* Button text color */
+  border-radius: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #66c1b3; /* Footer color */
+  color: #fff; /* Footer text color */
+  text-align: center;
+  padding: 10px 0;
+}
+
+h3 {
+  background-color: #66c1b3; /* Sea-green background color for h3 */
+  color: #fff; /* Text color */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 5px; /* Rounded corners */
+}
+
+p {
+  background-color: #d2f0eb; /* Lighter background color */
+  color: #333; /* Text color */
+  padding: 15px; /* Padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+em {
+  font-style: italic;
+}
+
+strong.special-text {
+  font-weight: bold;
+  font-family: 'Verdana', sans-serif; /* Change to your preferred font */
+}
+
+/* Your existing CSS */
+
+.spacer {
+  background-color: #f0f9f8; /* Replace with your page's background color */
+  height: 50px; /* Adjust the height as needed */
+}
+
+
+.responsive-image-small {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .content-block {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+  }
+
+  .responsive-image-small {
+    max-width: 40%;
+  }
+
+  .text {
+    max-width: 50%;
+    margin-left: 20px;
+  }
+
+  .small-text {
+ max-width: 50%;
+    margin-left: 20px;
+  }
+
+}
+
+.hidden-text {
+      display: none;
+      font-style: italic;
+      color: #888;
+    }
+
+/* Basic styles for the blog layout */
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-image {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.post-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.post-subtitle {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.post-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.post-references {
+  /* Styles for references or citations */
+}
