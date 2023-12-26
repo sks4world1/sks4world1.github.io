@@ -197,3 +197,50 @@ strong.special-text {
 .post-references {
   /* Styles for references or citations */
 }
+
+
+/* FAQ container */
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for FAQ items */
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Styling for accordion labels */
+.accordion {
+  display: block;
+  cursor: pointer;
+  padding: 15px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.accordion:hover {
+  background-color: #ddd;
+}
+
+/* Styling for FAQ panel */
+.panel {
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.faq-toggle {
+  display: none;
+}
+
+/* Checkbox hack for showing panel on toggle */
+.faq-toggle:checked + .accordion + .panel {
+  max-height: 1000px;
+}
